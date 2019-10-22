@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Code Structure | 鲁班H5</title>
+    <meta name="description" content="OpenSource Mobile Page Builder&amp;Generator">
+    <link rel="preload" href="/luban-h5/assets/css/0.styles.e1c8f966.css" as="style"><link rel="preload" href="/luban-h5/assets/js/app.17587a58.js" as="script"><link rel="preload" href="/luban-h5/assets/js/2.680142fb.js" as="script"><link rel="preload" href="/luban-h5/assets/js/12.6550490d.js" as="script"><link rel="prefetch" href="/luban-h5/assets/js/10.bdcc8011.js"><link rel="prefetch" href="/luban-h5/assets/js/11.4457c234.js"><link rel="prefetch" href="/luban-h5/assets/js/13.06889b3c.js"><link rel="prefetch" href="/luban-h5/assets/js/14.568fb664.js"><link rel="prefetch" href="/luban-h5/assets/js/15.af9ea1d0.js"><link rel="prefetch" href="/luban-h5/assets/js/16.05c1aa6d.js"><link rel="prefetch" href="/luban-h5/assets/js/17.e40b1724.js"><link rel="prefetch" href="/luban-h5/assets/js/18.064abdc7.js"><link rel="prefetch" href="/luban-h5/assets/js/19.fdaf5e0b.js"><link rel="prefetch" href="/luban-h5/assets/js/20.2878c7d1.js"><link rel="prefetch" href="/luban-h5/assets/js/21.2423e00a.js"><link rel="prefetch" href="/luban-h5/assets/js/22.1ded1db1.js"><link rel="prefetch" href="/luban-h5/assets/js/23.6b08cda9.js"><link rel="prefetch" href="/luban-h5/assets/js/24.1971d83b.js"><link rel="prefetch" href="/luban-h5/assets/js/3.59a0ef60.js"><link rel="prefetch" href="/luban-h5/assets/js/4.71471a0a.js"><link rel="prefetch" href="/luban-h5/assets/js/5.2128d1b6.js"><link rel="prefetch" href="/luban-h5/assets/js/6.3368263d.js"><link rel="prefetch" href="/luban-h5/assets/js/7.9e90a7f2.js"><link rel="prefetch" href="/luban-h5/assets/js/8.acffbd1d.js"><link rel="prefetch" href="/luban-h5/assets/js/9.6634f759.js">
+    <link rel="stylesheet" href="/luban-h5/assets/css/0.styles.e1c8f966.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/luban-h5/" class="home-link router-link-active"><!----> <span class="site-name">鲁班H5</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://api.luban-h5.wxjcart.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Website
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ly525/luban-h5/releases" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/luban-h5/en/implementation/code-structure.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/luban-h5/zh/" class="nav-link">简体中文</a></li></ul></div></div> <a href="https://github.com/ly525/luban-h5" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://api.luban-h5.wxjcart.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Website
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://github.com/ly525/luban-h5/releases" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Changelog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/luban-h5/en/implementation/code-structure.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/luban-h5/zh/" class="nav-link">简体中文</a></li></ul></div></div> <a href="https://github.com/ly525/luban-h5" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>🚀 Getting started</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/luban-h5/en/getting-started/introduction.html" class="sidebar-link">Introduction</a></li><li><a href="/luban-h5/en/getting-started/features.html" class="sidebar-link">Features</a></li><li><a href="/luban-h5/en/getting-started/quick-start.html" class="sidebar-link">Quick Start</a></li><li><a href="/luban-h5/en/getting-started/deployment.html" class="sidebar-link">Deployment</a></li><li><a href="/luban-h5/en/getting-started/discussion.html" class="sidebar-link">Join Discussion Group</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>💡Implementation</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/luban-h5/en/implementation/code-structure.html" class="active sidebar-link">Code Structure</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/luban-h5/en/implementation/code-structure.html#front-end" class="sidebar-link">Front End</a></li></ul></li><li><a href="/luban-h5/en/implementation/form-submit.html" class="sidebar-link">Form Submit</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>🔌 Local plugins</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="code-structure"><a href="#code-structure" aria-hidden="true" class="header-anchor">#</a> Code Structure</h1> <h2 id="front-end"><a href="#front-end" aria-hidden="true" class="header-anchor">#</a> Front End</h2> <p>It is recommended to look at <code>router.js</code> first, and then start with <code>front-end/h5/src/views/Editor.vue</code>. Here is the entrance to the Editor.</p> <div class="language-JavaScript extra-class"><pre class="language-javascript"><code>front<span class="token operator">-</span>end<span class="token operator">/</span>h5<span class="token operator">/</span>src                # source code <span class="token keyword">for</span> front end<span class="token punctuation">,</span> includes<span class="token punctuation">:</span> editor<span class="token punctuation">,</span> work<span class="token operator">-</span>manager<span class="token punctuation">,</span> form<span class="token operator">-</span>stat etc<span class="token punctuation">.</span>
+├── assets
+│   ├── <span class="token number">403.</span>svg
+│   ├── <span class="token number">404.</span>svg
+│   ├── <span class="token number">500.</span>svg
+│   ├── logo<span class="token punctuation">.</span>png
+│   ├── placeholder<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">-</span>work<span class="token punctuation">.</span>svg
+│   └── unauth<span class="token operator">-</span>page<span class="token operator">-</span>illustration<span class="token punctuation">.</span>svg
+├── components
+│   ├── core                    # core
+│   │   ├── editor              # editor module
+│   │   │   ├── canvas          # cavas：edit model <span class="token operator">+</span> preview mode
+│   │   │   │   ├── edit<span class="token punctuation">.</span>js     # canvas <span class="token keyword">for</span> edit mode
+│   │   │   │   └── preview<span class="token punctuation">.</span>js  # canvas <span class="token keyword">for</span> preview mode
+│   │   │   ├── edit<span class="token operator">-</span>panel      # config panel <span class="token keyword">for</span> actions<span class="token punctuation">,</span> plugin props<span class="token punctuation">,</span> animation<span class="token punctuation">,</span> actions etc<span class="token punctuation">.</span>
+│   │   │   │   ├── action<span class="token punctuation">.</span>js   #
+│   │   │   │   ├── props<span class="token punctuation">.</span>js    #
+│   │   │   │   └── script<span class="token punctuation">.</span>js   #
+│   │   │   ├── header
+│   │   │   ├── modals
+│   │   │   │   └── preview<span class="token punctuation">.</span>vue # preivew modal
+│   │   │   ├── shortcuts<span class="token operator">-</span>panel # the shortcut buttons <span class="token keyword">for</span> plugins
+│   │   │   │   ├── index<span class="token punctuation">.</span>js
+│   │   │   │   └── shortcut<span class="token operator">-</span>button<span class="token punctuation">.</span>js
+│   │   │   └── index<span class="token punctuation">.</span>js
+│   │   ├── models              #
+│   │   │   ├── element<span class="token punctuation">.</span>js      #
+│   │   │   ├── page<span class="token punctuation">.</span>js         #
+│   │   │   └── work<span class="token punctuation">.</span>js         #
+│   │   ├── styles
+│   │   │   └── index<span class="token punctuation">.</span>scss
+│   │   └── support             #
+│   │       └── shape<span class="token punctuation">.</span>js        # drag<span class="token operator">&amp;</span>drop to change the shape <span class="token keyword">of</span> an element
+│   ├── plugins                 # plugin list<span class="token punctuation">:</span> button<span class="token punctuation">,</span> <span class="token function">form</span> <span class="token punctuation">(</span>submit button <span class="token operator">+</span> input box<span class="token punctuation">)</span><span class="token punctuation">,</span> text<span class="token punctuation">,</span> pictures etc<span class="token punctuation">.</span>
+│   │   ├── lbp<span class="token operator">-</span>button<span class="token punctuation">.</span>js
+│   │   ├── lbp<span class="token operator">-</span>form<span class="token operator">-</span>button<span class="token punctuation">.</span>js
+│   │   ├── lbp<span class="token operator">-</span>form<span class="token operator">-</span>input<span class="token punctuation">.</span>js
+│   │   ├── lbp<span class="token operator">-</span>picture<span class="token operator">-</span>placeholder<span class="token punctuation">.</span>jpg
+│   │   ├── lbp<span class="token operator">-</span>picture<span class="token punctuation">.</span>js
+│   │   └── lbp<span class="token operator">-</span>text<span class="token punctuation">.</span>js
+│   └── HelloWorld<span class="token punctuation">.</span>vue
+├── constants                  #
+│   └── api<span class="token punctuation">.</span>js                 #
+├── mixins                     #
+│   └── load<span class="token operator">-</span>plugins<span class="token punctuation">.</span>js        # load plugins
+├── pages
+│   ├── editor                 # entry <span class="token keyword">for</span> editor
+│   ├── home
+│   └── index
+├── store
+│   ├── modules
+│   │   ├── editor<span class="token punctuation">.</span>js
+│   │   ├── element<span class="token punctuation">.</span>js
+│   │   ├── loading<span class="token punctuation">.</span>js
+│   │   ├── page<span class="token punctuation">.</span>js
+│   │   ├── user<span class="token punctuation">.</span>js
+│   │   ├── visible<span class="token punctuation">.</span>js
+│   │   └── work<span class="token punctuation">.</span>js
+│   ├── plugins               # vuex plugins
+│   │   └── undo<span class="token operator">-</span>redo         #
+│   │       ├── History<span class="token punctuation">.</span>js
+│   │       └── index<span class="token punctuation">.</span>js
+│   └── index<span class="token punctuation">.</span>js
+├── utils
+│   ├── element<span class="token punctuation">.</span>js
+│   ├── http<span class="token punctuation">.</span>js
+│   └── strapi<span class="token punctuation">.</span>js
+├── views
+│   ├── work<span class="token operator">-</span>manager
+│   │   ├── form<span class="token operator">-</span>stat
+│   │   │   ├── column<span class="token punctuation">.</span>js
+│   │   │   ├── detail<span class="token punctuation">.</span>vue
+│   │   │   └── index<span class="token punctuation">.</span>vue
+│   │   ├── index<span class="token punctuation">.</span>vue
+│   │   └── list<span class="token punctuation">.</span>vue
+│   ├── About<span class="token punctuation">.</span>vue
+│   ├── Editor<span class="token punctuation">.</span>vue           # a wrapper around the core editor<span class="token punctuation">,</span> where the list <span class="token keyword">of</span> plug<span class="token operator">-</span>ins is loaded
+│   └── Home<span class="token punctuation">.</span>vue
+├── App<span class="token punctuation">.</span>vue
+├── engine<span class="token operator">-</span>entry<span class="token punctuation">.</span>js          # preview engine <span class="token keyword">for</span> previewing and viewing mobie page on your phone
+├── main<span class="token punctuation">.</span>js                  # entry <span class="token keyword">for</span> editor <span class="token operator">+</span> work<span class="token operator">-</span>manager
+├── registerServiceWorker<span class="token punctuation">.</span>js
+└── router<span class="token punctuation">.</span>js                #
+</code></pre></div><hr> <!----> <p>Editor + work-manager (work management page) entry</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/ly525/luban-h5/edit/dev/docs/en/implementation/code-structure.md" target="_blank" rel="noopener noreferrer">Edit this page on GitHub</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">10/13/2019, 10:57:23 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/luban-h5/en/getting-started/discussion.html" class="prev">
+          Join Discussion Group
+        </a></span> <span class="next"><a href="/luban-h5/en/implementation/form-submit.html">
+          Form Submit
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/luban-h5/assets/js/app.17587a58.js" defer></script><script src="/luban-h5/assets/js/2.680142fb.js" defer></script><script src="/luban-h5/assets/js/12.6550490d.js" defer></script>
+  </body>
+</html>
